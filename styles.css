@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ECDFCC;
+    font-size: 62.5%;
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    height: 15vh;
+    background-color: #1E201E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color: #ECDFCC;
+    width: 100%;
+}
+#logo{
+    font-size: 3.2rem;
+    text-transform: uppercase;
+    user-select: none;
+    cursor: pointer;
+}
+#logo:hover{
+    color: #cec5b8;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    min-width: 400px;
+}
+ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+li a{
+    color: #ECDFCC;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#aboutme{
+    background-color: #3C3D37;
+    min-width: 100%;
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: #ECDFCC;
+    font-size: 2.2rem;
+    gap:1rem;
+}
+.name{
+    color: #1E201E;
+    text-transform: uppercase;
+}
+#aboutme p{
+    font-size: 1.2rem;
+}
+.sec{
+    min-height: 50vh;
+    background-color: #697565;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+    gap: 1.5rem;
+    font-size: 1.8rem;
+    color: #ECDFCC;
+}
+h1{
+    text-transform: uppercase;
+}
+.sec p{
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+}
+#plans{
+    background-color: #3C3D37;
+}
+.bold{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #1E201E;
+}
+p a{
+    color: #1E201E;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+footer{
+    min-height: 10vh;
+    background-color: #1E201E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color: #ECDFCC;
+    width: 100%;
+    font-size: 1.2rem;
+}
+@media (max-width: 600px)
+{
+    nav{
+        display: none;
+    }
+    header{
+        justify-content: center;
+    }
+    footer{
+        flex-direction: column;
+    }
+}
